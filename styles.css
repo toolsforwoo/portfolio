@@ -21,9 +21,9 @@
   --muted: #B8C0C7;
 
   /* Typography */
-  --font-headline: 'Bebas Neue', sans-serif;
-  --font-serif: 'Playfair Display', serif;
-  --font-body: 'Inter', sans-serif;
+  --font-headline: 'Satoshi', sans-serif;
+  --font-serif: 'Satoshi', sans-serif;
+  --font-body: 'Satoshi', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 
   /* Fluid type scale */
@@ -62,7 +62,7 @@ h1, h2, h3 {
   line-height: 0.92; /* a hair more breathing room */
   color: var(--ink);
 }
-.serif { font-family: var(--font-serif); font-weight: 400; font-style: italic; }
+.serif { font-family: var(--font-serif); font-weight: 400; font-style: normal; }
 
 /* Container */
 .container { max-width: 1280px; margin: 0 auto; padding: 0 var(--gutter); }
@@ -254,7 +254,7 @@ h1, h2, h3 {
   color:var(--blue-2); margin-bottom:1rem; text-transform:uppercase;
 }
 .hero-headline{ font-size:var(--text-4xl); margin-bottom:2.25rem; line-height:0.9; }
-.hero-deck{ font-family:var(--font-serif); font-size:var(--text-xl); color:var(--ink-2); margin-bottom:2.25rem; font-style:italic; }
+.hero-deck{ font-family:var(--font-serif); font-size:var(--text-xl); color:var(--ink-2); margin-bottom:2.25rem; font-style:normal; }
 
 /* HIDE HERO BUTTONS */
 .hero-ctas{ display:none !important; }
@@ -287,7 +287,7 @@ h1, h2, h3 {
 }
 .section-title{ font-size:var(--text-3xl); }
 .section-accent{ display:block; width:60px; height:2px; background:var(--blue-2); margin:1.25rem 0; }
-.section-subtitle{ font-family:var(--font-serif); font-size:var(--text-lg); color:var(--muted); font-style:italic; }
+.section-subtitle{ font-family:var(--font-serif); font-size:var(--text-lg); color:var(--muted); font-style:normal; }
 .section-header .view-all{
   font-size:14px; text-decoration:none; color:var(--ink-2); opacity:.85; border-bottom:1px solid transparent;
 }
@@ -331,7 +331,7 @@ h1, h2, h3 {
 }
 
 .card-insight{
-  font-family:var(--font-serif); font-size:var(--text-sm); color:var(--muted); font-style:italic;
+  font-family:var(--font-serif); font-size:var(--text-sm); color:var(--muted); font-style:normal;
   opacity:0; transform:translateY(10px); transition:all .4s ease;
 }
 .card:hover .card-insight{ opacity:1; transform:translateY(0); }
@@ -344,7 +344,7 @@ h1, h2, h3 {
 .pull-quote blockquote{ position:relative; padding:3rem 0; border-top:1px solid var(--blue-3); border-bottom:1px solid var(--blue-3); }
 .pull-quote p{
   font-family:var(--font-serif); font-size:var(--text-2xl); color:var(--ink);
-  text-align:center; margin-bottom:1rem; font-style:italic; line-height:1.3;
+  text-align:center; margin-bottom:1rem; font-style:normal; line-height:1.3;
 }
 .pull-quote cite{
   display:block; font-family:var(--font-mono); font-size:var(--text-sm); color:var(--muted);
@@ -365,7 +365,7 @@ h1, h2, h3 {
 .blog-item:hover::before{ width:100%; }
 .blog-date{ font-family:var(--font-mono); font-size:var(--text-xs); color:var(--muted); margin-bottom:.5rem; }
 .blog-title{ font-family:var(--font-headline); font-size:var(--text-2xl); color:var(--ink); margin-bottom:.5rem; text-transform:uppercase; }
-.blog-deck{ font-family:var(--font-serif); font-size:var(--text-base); color:var(--muted); font-style:italic; }
+.blog-deck{ font-family:var(--font-serif); font-size:var(--text-base); color:var(--muted); font-style:normal; }
 
 /* ========================================
    FOOTER
@@ -373,7 +373,7 @@ h1, h2, h3 {
 .footer{ padding:var(--section-gap) 0 2rem; position:relative; }
 @media (min-width: 1024px){ .footer{ margin-left: 260px; } }
 .footer-content{ margin-bottom:4rem; }
-.footer-headline{ font-family:var(--font-serif); font-size:var(--text-3xl); color:var(--ink); margin-bottom:1rem; font-style:italic; text-transform:none; }
+.footer-headline{ font-family:var(--font-serif); font-size:var(--text-3xl); color:var(--ink); margin-bottom:1rem; font-style:normal; text-transform:none; }
 .footer-deck{ font-size:var(--text-lg); color:var(--muted); margin-bottom:2rem; }
 .footer-ctas{ display:flex; gap:2rem; flex-wrap:wrap; }
 .contact-link{ color:var(--blue-2); text-decoration:none; font-family:var(--font-mono); font-size:var(--text-sm); position:relative; transition:color .3s ease; }
@@ -410,4 +410,3 @@ h1, h2, h3 {
 .section-title  { font-size: clamp(1.6rem, 2.6vw, 2.4rem); line-height: 1; }
 .card-title     { font-size: clamp(1rem, 1.3vw, 1.25rem); line-height: 1.15; }
 .card-excerpt   { font-size: clamp(.85rem, 1vw, .95rem); }
-.container, .section { --section-gap: clamp(2.5rem, 6vw, 5rem); } /* less vertical space */
