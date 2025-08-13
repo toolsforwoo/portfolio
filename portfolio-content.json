@@ -1,0 +1,174 @@
+{
+  "hero": {
+    "kicker": "NICHOLAS WOO — WEB3 GTM STRATEGIST & WRITER",
+    "headline": "SHARP NARRATIVE. OPERATOR-GRADE GTM. HIGH-SIGNAL WRITING.",
+    "deck": "I write the foundations of Web3 business growth.",
+    "ctas": [
+      {
+        "label": "Let's Build Together",
+        "href": "#contact",
+        "variant": "primary"
+      },
+      {
+        "label": "View Work",
+        "href": "#marketing",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "sections": {
+    "marketing": {
+      "title": "MARKETING STRATEGY",
+      "subtitle": "Content that converts. Copy that compels.",
+      "items": [
+        {
+          "title": "Content vs Copy",
+          "date": "NOV 2024",
+          "tags": ["STRATEGY", "WRITING"],
+          "insight": "Good commercial writers know how to use both styles.",
+          "image": "marketing-1.jpg",
+          "href": "#"
+        },
+        {
+          "title": "Brand Narrative Design",
+          "date": "OCT 2024",
+          "tags": ["BRANDING", "STORYTELLING"],
+          "insight": "Every protocol needs a story worth believing in.",
+          "image": "marketing-2.jpg",
+          "href": "#"
+        },
+        {
+          "title": "Community-First GTM",
+          "date": "SEP 2024",
+          "tags": ["COMMUNITY", "GROWTH"],
+          "insight": "In Web3, community isn't just an audience—it's your army.",
+          "image": "marketing-3.jpg",
+          "href": "#"
+        }
+      ]
+    },
+    "web3": {
+      "title": "WEB3",
+      "subtitle": "Go-to-market strategy for the decentralized future.",
+      "items": [
+        {
+          "title": "Token Economics",
+          "date": "DEC 2024",
+          "tags": ["DEFI", "TOKENOMICS"],
+          "insight": "Sustainable tokenomics require narrative alignment.",
+          "image": "web3-1.jpg",
+          "href": "#"
+        },
+        {
+          "title": "Protocol Positioning",
+          "date": "NOV 2024",
+          "tags": ["POSITIONING", "MESSAGING"],
+          "insight": "Your protocol's story determines its market cap.",
+          "image": "web3-2.jpg",
+          "href": "#"
+        },
+        {
+          "title": "DAO Communications",
+          "date": "OCT 2024",
+          "tags": ["DAO", "GOVERNANCE"],
+          "insight": "Decentralized teams need centralized narratives.",
+          "image": "web3-3.jpg",
+          "href": "#"
+        }
+      ]
+    },
+    "ai": {
+      "title": "AI",
+      "subtitle": "Augmented intelligence for strategic advantage.",
+      "items": [
+        {
+          "title": "AI-Native GTM",
+          "date": "DEC 2024",
+          "tags": ["AI", "AUTOMATION"],
+          "insight": "The future of marketing is augmented intelligence.",
+          "image": "ai-1.jpg",
+          "href": "#"
+        },
+        {
+          "title": "Content Velocity",
+          "date": "NOV 2024",
+          "tags": ["CONTENT", "SCALE"],
+          "insight": "AI doesn't replace writers—it weaponizes them.",
+          "image": "ai-2.jpg",
+          "href": "#"
+        },
+        {
+          "title": "Prompt Engineering",
+          "date": "OCT 2024",
+          "tags": ["PROMPTS", "OPTIMIZATION"],
+          "insight": "The best prompts are strategy documents in disguise.",
+          "image": "ai-3.jpg",
+          "href": "#"
+        }
+      ]
+    }
+  },
+  "testimonials": [
+    {
+      "quote": "Good commercial writers know how to use both styles — content for the long game, copy for instant action.",
+      "author": "Nicholas Woo",
+      "role": "On the art of Web3 narrative"
+    },
+    {
+      "quote": "In crypto, your whitepaper is your constitution. Your tweets are your foreign policy. Your Discord is your parliament.",
+      "author": "Industry Observer",
+      "role": "On Web3 communications"
+    }
+  ],
+  "blog": [
+    {
+      "date": "DEC 15, 2024",
+      "title": "Why You Should Hire a Web3 Writer",
+      "deck": "And why it should be me.",
+      "href": "/blog/hire-web3-writer"
+    },
+    {
+      "date": "DEC 10, 2024",
+      "title": "The Rising Tide of OnChain Native Content",
+      "deck": "How blockchain-native content strategies outperform traditional marketing.",
+      "href": "/blog/onchain-content"
+    },
+    {
+      "date": "DEC 05, 2024",
+      "title": "Investment Memos That Actually Convert",
+      "deck": "The anatomy of pitch decks that close rounds.",
+      "href": "/blog/investment-memos"
+    },
+    {
+      "date": "NOV 28, 2024",
+      "title": "Whitepaper Architecture for 2025",
+      "deck": "Technical documentation that builds communities.",
+      "href": "/blog/whitepaper-architecture"
+    },
+    {
+      "date": "NOV 20, 2024",
+      "title": "From TradFi to DeFi: A Messaging Framework",
+      "deck": "Bridging institutional capital with crypto native innovation.",
+      "href": "/blog/tradfi-defi-messaging"
+    }
+  ],
+  "links": {
+    "telegram": "@nikolei666",
+    "x": "https://x.com/nicholaswoo",
+    "email": "nicholas.woojw@gmail.com"
+  },
+  "metadata": {
+    "version": "11.2024",
+    "location": "Singapore, SG",
+    "tagline": "I find enjoyment in battle-testing myself in marketing and commercial strategy arenas.",
+    "specialties": [
+      "Web3 Go-to-Market Strategy",
+      "Token Economics & Narratives",
+      "Protocol Positioning",
+      "Investment Memos & Pitch Decks",
+      "Whitepaper Development",
+      "Community-First Growth",
+      "AI-Augmented Content Strategy"
+    ]
+  }
+}
