@@ -410,3 +410,100 @@ h1, h2, h3 {
 .section-title  { font-size: clamp(1.6rem, 2.6vw, 2.4rem); line-height: 1; }
 .card-title     { font-size: clamp(1rem, 1.3vw, 1.25rem); line-height: 1.15; }
 .card-excerpt   { font-size: clamp(.85rem, 1vw, .95rem); }
+
+/* ==== NAV CLEANUP & LAYOUT OVERRIDES (append at end) ==== */
+
+/* If any UL/OL slipped into the sidebar, nuke bullets/markers */
+.sidebar nav, .sidebar-nav, .sidebar-nav ul, .sidebar-nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-nav li { list-style: none; }
+.sidebar-nav li::marker { content: ''; }
+
+/* Sidebar width & internal spacing (keeps brand colors) */
+.sidebar {
+  width: 260px;                 /* match reference width */
+  padding: 1.25rem 0;           /* slightly tighter vertical rhythm */
+}
+@media (min-width:1200px){
+  .hero, .section, .pull-quote, .footer { margin-left: 260px; } /* offset content */
+}
+
+/* Each link: vertically centered, no stray symbols, generous click target */
+.nav-link{
+  display: flex;
+  align-items: center;          /* vertical centering */
+  justify-content: flex-start;
+  gap: .5rem;
+  height: 44px;                 /* consistent hit area */
+  padding: 0 18px;
+  text-decoration: none;
+  color: var(--muted);
+  border-radius: 12px;
+  transition: background .25s ease, color .25s ease;
+}
+.nav-link .nav-icon { display: none; }  /* hide any arrows/numbers if present */
+.nav-link::before { content: none !important; } /* kill pseudo bullets */
+
+.nav-link:hover, .nav-link:focus-visible{
+  color: var(--ink-2);
+  background: rgba(255,255,255,.04);
+}
+
+/* Active state (stronger, but still on-brand) */
+.nav-link.active{
+  background: #171b20;          /* subtle lift; same palette family */
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Keep nav label style consistent with your brand */
+.nav-text{
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+/* Section label (Resources) */
+.nav-section-label{
+  margin: 18px 18px 6px 18px;
+  font-size: .72rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  opacity: .7;
+  border-top: 1px solid var(--stroke);
+  padding-top: 14px;
+}
+
+/* Mobile keeps your existing behavior; just ensure spacing looks right */
+@media (max-width:1199px){
+  .sidebar { width: 260px; }  /* drawer width */
+  .nav-link { height: 48px; padding: 0 20px; }
+}
+
+/* Typography tightening to match the sharper single-font look */
+h1, h2, h3 {
+  font-family: var(--font-headline);
+  font-weight: 700;             /* give headers authority with Satoshi */
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+.hero-headline{
+  letter-spacing: -0.015em;
+  line-height: 0.96;
+}
+.hero-deck,
+.section-subtitle,
+.card-insight,
+.blog-deck,
+.footer-headline{
+  font-family: var(--font-body);
+  font-style: normal; /* explicit */
+}
+
+/* Optional: make section accent slightly stronger without color change */
+.section-accent{ height: 3px; }
